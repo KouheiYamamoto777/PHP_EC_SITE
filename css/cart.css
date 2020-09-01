@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+/* カートページのcss */
+
+body {
+    margin: 0;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+.login_user {
+    position: fixed;
+    top: 35px;
+    right: 0;
+    width: auto;
+    height: 80px;
+    background: #fff;
+    text-align: center;
+    padding: 3px;
+    border-radius: 15px 0 0 15px;
+    border-left: solid 2px tomato;
+    border-top: solid 2px tomato;
+    border-bottom: solid 2px tomato;
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+    height: auto;
+}
+.item {
+    width: 800px;
+    height: 240px;
+    display: flex;
+}
+.item .img {
+    width: 280px;
+    height: 240px;
+}
+.item .img img {
+    width: 100%;
+    height: 100%;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+    height: 240px;
+}
+.item .info .title {
+    width: 520px;
+    height: 60px;
+    font-size: 2em;
+}
+.item .info .title .qty {
+    font-size: 0.6em;
+}
+.item .info .form {
+    width: 520px;
+    height: 120px;
+}
+.item .info .form table tr form {
+    font-size: 2em;
+}
+.item .info .price {
+    width: 520px;
+    height: 60px;
+    font-size: 2em;
+    text-align: right;
+}
+.item .info form .delete {
+    width: 520px;
+    height: 60px;
+    font-size: 2em;
+    text-align: right;
+}
+.back_my_page {
+    position: fixed;
+    line-height: 80px;
+    bottom: 150px;
+    right: 0;
+    width: 200px;
+    height: 80px;
+    background: #fff;
+    text-align: center;
+    padding: 3px;
+    border-radius: 15px 0 0 15px;
+    border-left: solid 2px tomato;
+    border-top: solid 2px tomato;
+    border-bottom: solid 2px tomato;
+}
+.back_my_page a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.total {
+    position: fixed;
+    bottom: 35px;
+    right: 0;
+    width: auto;
+    height: 80px;
+    background: #fff;
+    text-align: center;
+    padding: 3px;
+    border-radius: 15px 0 0 15px;
+    border-left: solid 2px tomato;
+    border-top: solid 2px tomato;
+    border-bottom: solid 2px tomato;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.total h2 {
+    margin: 0;
+}

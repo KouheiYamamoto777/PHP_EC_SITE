@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+/* マイページのcss */
+
+body {
+    margin: 0;
+    position: relative;
+    padding-bottom: 50px;
+}
+header {
+    text-align: center;
+    height: 80px;
+}
+header h1 {
+    margin: 30px 0 0 0;
+}
+.cart {
+    position: fixed;
+    top: 150px;
+    right: 0;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    background: #fff;
+    border-radius: 15px 0 0 15px;
+    border-left: solid 2px tomato;
+    border-top: solid 2px tomato;
+    border-bottom: solid 2px tomato;
+}
+.cart a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: rosybrown;
+}
+.icon {
+    font-size: 28px;
+}
+.login_user {
+    position: fixed;
+    top: 35px;
+    right: 0;
+    width: auto;
+    height: 80px;
+    background: #fff;
+    text-align: center;
+    padding: 3px;
+    border-radius: 15px 0 0 15px;
+    border-left: solid 2px tomato;
+    border-top: solid 2px tomato;
+    border-bottom: solid 2px tomato;
+}
+.container {
+    width: 940px;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 235px);
+    grid-auto-rows: 400px;
+    background: #eee;
+}
+.item {
+    height: 400px;
+    border: solid 1px #aaa;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.item img {
+    width: 100%;
+    height: 100%;
+}
+.item .image {
+    width: auto;
+    height: 250px;
+}
+.item .image_title {
+    width: auto;
+    height: 50px;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: bold;
+}
+.item .price {
+    width: auto;
+    height: 50px;
+    background: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item form {
+    width: auto;
+    height: 50px;
+    background: #bbb;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+}
+.non_stock {
+    color: #f00;
+}
+
